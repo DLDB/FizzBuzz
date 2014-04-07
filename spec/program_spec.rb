@@ -16,6 +16,10 @@ describe "FizzBuzz" do
 		#this evaluates the bad path-expecting to be false
 	end
 
+	it "Does 5 divide by five?" do
+		expect(divide_by_five?(5)).to be_true
+		#this evaluates if divide_by_five? method, when given the number 5, will return true.
+	end
 
 
 
