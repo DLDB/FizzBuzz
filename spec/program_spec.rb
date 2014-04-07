@@ -35,7 +35,7 @@ describe "FizzBuzz" do
 	end
 
 	it "Does 1 return 1?" do
-		expect(FizzBuzz(1)).to eq 
+		expect(fizzbuzz(1)).to eq 1
 	end
 	#evaulate whether method fizzbuzz returns one if given argument one
 	

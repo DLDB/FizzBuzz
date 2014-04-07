@@ -13,3 +13,11 @@ end
 def divide_by_fifteen?(number)
 	number % 15 == 0
 end
+
+def fizzbuzz(number)
+	return "FizzBuzz" if divide_by_fifteen?(number)
+	return "Fizz" if divide_by_three?(number)
+	return "Buzz" if divide_by_five?(number)
+	return number
+	#if none of the methods return true, this will return number unchanged.
+end
