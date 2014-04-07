@@ -7,7 +7,7 @@ describe "FizzBuzz" do
 	it "divide_by_three?" do 
 		#it should be readable for the programmer-not the method. 
 		#does the number divide by three, do is opening the block as there is a block of code here
-	expect(divide_by_three?(3)).to be.true
+	expect(divide_by_three?(3)).to be_true
 	#What to expect. (Method with argument in () for readability. .to = method that evaluates be.true=to be true)
 	end
 
