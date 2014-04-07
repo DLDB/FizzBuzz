@@ -26,6 +26,10 @@ describe "FizzBuzz" do
 		#this is evaluating the bad path so method has to do what we want it to in order to pass both tests.
 	end
 
+	it "Does 15 divide by 15?" do
+		expect(divide_by_fifteen?(15)).to be_true
+	end
+
 
 
 
