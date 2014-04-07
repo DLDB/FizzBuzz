@@ -21,6 +21,10 @@ describe "FizzBuzz" do
 		#this evaluates if divide_by_five? method, when given the number 5, will return true.
 	end
 
+	it "Does 1 divide by five?" do
+		expect(divide_by_five?(1)).to be_false
+		#this is evaluating the bad path so method has to do what we want it to in order to pass both tests.
+	end
 
 
 
