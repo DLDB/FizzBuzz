@@ -30,6 +30,16 @@ describe "FizzBuzz" do
 		expect(divide_by_fifteen?(15)).to be_true
 	end
 
+	it "Does 1 divide by 15?" do
+		expect(divide_by_fifteen?(1)).to be_false
+	end
+
+	it "Does 1 return 1?" do
+		expect(FizzBuzz(1)).to eq 
+	end
+	#evaulate whether method fizzbuzz returns one if given argument one
+	
+
 
 
 

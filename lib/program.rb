@@ -9,3 +9,7 @@ def divide_by_five?(number)
 	#returning true is the good path but fail is the bad path.
 	number % 5 == 0
 end
+
+def divide_by_fifteen?(number)
+	number % 15 == 0
+end
