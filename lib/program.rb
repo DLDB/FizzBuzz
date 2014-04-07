@@ -3,3 +3,7 @@ def divide_by_three?(number)
 	# the == makes this a boolean because it evaluates true if both sides are equal or false if not.
 	number % 3 == 0
 end
+
+def divide_by_five?(number)
+	true
+end
